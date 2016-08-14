@@ -1,0 +1,29 @@
+{
+  "name": "politifact-checker",
+  "version": "1.0.0",
+  "description": "Rates figures evaluated by Politifact based on their average truthfulness rating.",
+  "main": "politifact-checker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caffeinewriter/politifact-checker.git"
+  },
+  "keywords": [
+    "politifact",
+    "politics"
+  ],
+  "author": "Brandon Anzaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caffeinewriter/politifact-checker/issues"
+  },
+  "homepage": "https://github.com/caffeinewriter/politifact-checker#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cheerio": "^0.20.0",
+    "prompt-autocomplete": "^1.2.0",
+    "superagent": "^2.2.0"
+  }
+}
